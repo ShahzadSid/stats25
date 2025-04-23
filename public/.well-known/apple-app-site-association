@@ -3,8 +3,8 @@
     "apps": [],
     "details": [
       {
-        "appID": "ZDH6CSD5Y4.com.sportcc.stats24",
-        "paths": ["/*"]
+        "appID": "XSPZ8DSH3Q.com.capital.connect.app",
+        "paths": ["/", "/RootNavView/*"]
       }
     ]
   }
