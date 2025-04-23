@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.stats.sixlogics",
+      "sha256_cert_fingerprints":
+        ["5B:83:7C:09:A8:84:18:29:C0:28:E5:65:FF:F7:BB:AD:52:F7:24:E8:B2:96:7F:47:0E:C5:6D:D6:26:AA:88:AD"]
+    }
+  }
+]

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open App or Redirect to App Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .download-banner {
+            background-color: #007AFF;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="download-banner" onclick="openAppOrRedirect()">
+    Download the app now!
+</div>
+
+<script>
+    function openAppOrRedirect() {
+        const universalLink = "https://yourdomain.com/your-deeplink-path"; // Your Universal Link
+        const appStoreLink = "https://apps.apple.com/app/idYOUR_APP_ID"; // Your App Store link
+
+        // Attempt to open the app
+        window.location = universalLink;
+
+        // If the app doesn't open within 1500ms, redirect to App Store
+        setTimeout(function () {
+            window.location = appStoreLink;
+        }, 1500);
+    }
+</script>
+
+</body>
+</html>

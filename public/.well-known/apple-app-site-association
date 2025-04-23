@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "ZDH6CSD5Y4.com.sportcc.stats24",
+        "paths": ["/*"]
+      }
+    ]
+  }
+}
